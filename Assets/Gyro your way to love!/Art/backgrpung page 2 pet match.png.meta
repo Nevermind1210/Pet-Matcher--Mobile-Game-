@@ -1,12 +1,69 @@
 fileFormatVersion: 2
 guid: 2090fb5860ccc524099cdb380f3e0103
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4671373256311963268
+    second: backgrpung page 2 pet match_0
+  - first:
+      213: 1224936355970304879
+    second: backgrpung page 2 pet match_1
+  - first:
+      213: -8524163197353918526
+    second: backgrpung page 2 pet match_2
+  - first:
+      213: -8149310491136599407
+    second: backgrpung page 2 pet match_3
+  - first:
+      213: 4709745012870038621
+    second: backgrpung page 2 pet match_4
+  - first:
+      213: 7914527591521785586
+    second: backgrpung page 2 pet match_5
+  - first:
+      213: 5754831797175742122
+    second: backgrpung page 2 pet match_6
+  - first:
+      213: -4290381997141812350
+    second: backgrpung page 2 pet match_7
+  - first:
+      213: -7401501974224260504
+    second: backgrpung page 2 pet match_8
+  - first:
+      213: 5350743766315799661
+    second: backgrpung page 2 pet match_9
+  - first:
+      213: -4994693317735598689
+    second: backgrpung page 2 pet match_10
+  - first:
+      213: 3799377102797900225
+    second: backgrpung page 2 pet match_11
+  - first:
+      213: -4036001715616759405
+    second: backgrpung page 2 pet match_12
+  - first:
+      213: -7290005914677688083
+    second: backgrpung page 2 pet match_13
+  - first:
+      213: 2067111299984629705
+    second: backgrpung page 2 pet match_14
+  - first:
+      213: -3476858929179479881
+    second: backgrpung page 2 pet match_15
+  - first:
+      213: 8068707044302864198
+    second: backgrpung page 2 pet match_16
+  - first:
+      213: -5867222708656827031
+    second: backgrpung page 2 pet match_17
+  - first:
+      213: -7999297090605987349
+    second: backgrpung page 2 pet match_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +92,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +107,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -75,13 +132,460 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1704
+        width: 239
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48efbb30a3d04d040800000000000000
+      internalID: 4671373256311963268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_1
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1834
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b42123029dff010800000000000000
+      internalID: 1224936355970304879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_2
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1843
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cff2462cb614b980800000000000000
+      internalID: -8524163197353918526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_3
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1852
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a50730945d7ee80800000000000000
+      internalID: -8149310491136599407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1680
+        width: 97
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5449cac2206c5140800000000000000
+      internalID: 4709745012870038621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1727
+        width: 87
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f61fa959ec06dd60800000000000000
+      internalID: 7914527591521785586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_6
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1734
+        width: 133
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae68c477054ddf40800000000000000
+      internalID: 5754831797175742122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1407
+        width: 361
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b91a51e408574c0800000000000000
+      internalID: -4290381997141812350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_8
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1567
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862b2065b25984990800000000000000
+      internalID: -7401501974224260504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_9
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1582
+        width: 76
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6493632b19a14a40800000000000000
+      internalID: 5350743766315799661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_10
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1597
+        width: 78
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f953a5af3e84faab0800000000000000
+      internalID: -4994693317735598689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_11
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1597
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9850458591ab430800000000000000
+      internalID: 3799377102797900225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_12
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1392
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391cbc3c2dd3df7c0800000000000000
+      internalID: -4036001715616759405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1104
+        width: 451
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8c325ae32b4da90800000000000000
+      internalID: -7290005914677688083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_14
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1107
+        width: 446
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf97ca76cadfac10800000000000000
+      internalID: 2067111299984629705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 680
+        width: 924
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0bc10a937bfbfc0800000000000000
+      internalID: -3476858929179479881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 327
+        width: 924
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f3d549e4ec9ff60800000000000000
+      internalID: 8068707044302864198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_17
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 0
+        width: 165
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96597684800739ea0800000000000000
+      internalID: -5867222708656827031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrpung page 2 pet match_18
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 165
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be94d9d9da9ccf090800000000000000
+      internalID: -7999297090605987349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
