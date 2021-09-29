@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Gyro_your_way_to_love_.Xavier_Scripts
 {
@@ -9,14 +10,14 @@ namespace Gyro_your_way_to_love_.Xavier_Scripts
         [Header("--Setup--")]
         public GameObject card;
         public CardLogic cl;
-        private SpriteRenderer sr;
+        private RawImage rI;
         [Header("--Settings--")]
         [SerializeField] float fMovingspeed = 1;
 
         // Start is called before the first frame update
         void Start()
         {
-            sr = card.GetComponent<SpriteRenderer>();
+            rI = card.GetComponent<RawImage>();
         }
 
         // Update is called once per frame
@@ -34,7 +35,7 @@ namespace Gyro_your_way_to_love_.Xavier_Scripts
             //checking the side
             if (card.transform.position.x > 2)
             {
-                sr.color = Color.green;
+               //rI.color = Color.green;
                 if (Input.GetMouseButton(0))
                 {
                     cl.InduceRight();
@@ -42,16 +43,16 @@ namespace Gyro_your_way_to_love_.Xavier_Scripts
             }
             else if (card.transform.position.x < -2)
             {
-                sr.color = Color.red;
+                //rI.color = Color.red;
                 if (Input.GetMouseButton(0))
                 {
                     cl.InduceLeft();
                 }
             }
-            else
-            {
-                sr.color = Color.white;
-            }
+            // else
+            // {
+            //     rI.color = Color.white;
+            // }
         }
     }
 }
