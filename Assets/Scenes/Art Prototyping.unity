@@ -968,7 +968,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 833405809}
+      - m_Target: {fileID: 1353207294}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1855,7 +1855,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &802212483
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2636,7 +2636,20 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2114320908}
+        m_TargetAssemblyTypeName: Gyro_your_way_to_love_.Xavier_Scripts.InputTextShower,
+          Assembly-CSharp
+        m_MethodName: PasswordMask
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnTouchScreenKeyboardStatusChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3032,7 +3045,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1353207295
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4841,9 +4854,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2115438547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1df8fd1b9aff9794da30d2254aa83bc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9aa95f62d9531c1449546fd181d1843f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 1270092506}
-  cl: {fileID: 1270092510}
-  fMovingspeed: 1
+  cardPrefab: {fileID: 0}

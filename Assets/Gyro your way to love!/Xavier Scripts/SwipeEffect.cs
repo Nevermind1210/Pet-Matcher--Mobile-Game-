@@ -18,12 +18,14 @@ public class SwipeEffect : MonoBehaviour,IBeginDragHandler,IDragHandler, IEndDra
 
       if (transform.localPosition.x - _initialPos.x > 0)
       {
+         //Swipe Right
          transform.localEulerAngles = new Vector3(0, 0, Mathf.LerpAngle(0, -30, 
                (_initialPos.x + transform.localPosition.x)/(Screen.width/2)));
       }
       else
       {
-         transform.localEulerAngles = new Vector3(0, 0, Mathf.LerpAngle(0, -30, 
+         // Swipe Left
+         transform.localEulerAngles = new Vector3(0, 0, Mathf.LerpAngle(0, 30, 
             (_initialPos.x - transform.localPosition.x)/(Screen.width/2)));
       }
    }
@@ -44,17 +46,15 @@ public class SwipeEffect : MonoBehaviour,IBeginDragHandler,IDragHandler, IEndDra
       {
          if (transform.position.x > _initialPos.x)
          {
-            if (transform.position.x > _initialPos.x)
-            {
-               _swipeLeft = false;
-            }
-            else
-            {
-               _swipeLeft = true;
-            }
-            cardMoved?.Invoke();
-            StartCoroutine(MoveCard());
+            _swipeLeft = false;
          }
+         else
+         {
+            _swipeLeft = true;
+         }
+
+         cardMoved?.Invoke();
+         StartCoroutine(MoveCard());
       }
    }
 
@@ -67,14 +67,13 @@ public class SwipeEffect : MonoBehaviour,IBeginDragHandler,IDragHandler, IEndDra
          if (_swipeLeft)
          {
             transform.localPosition = new Vector3(Mathf.SmoothStep(transform.localPosition.x,
-               transform.localPosition.x - Screen.width, 4*time), transform.localPosition.y, 0);
+               transform.localPosition.x - Screen.width,time),transform.localPosition.y,0);
          }
          else
          {
             transform.localPosition = new Vector3(Mathf.SmoothStep(transform.localPosition.x,
-               transform.localPosition.x + Screen.width, 4*time), transform.localPosition.y, 0);
+               transform.localPosition.x + Screen.width,time),transform.localPosition.y,0);
          }
-
          GetComponent<RawImage>().color = new Color(1, 1, 1, Mathf.SmoothStep(1, 0, 4*time));
          yield return null;
       }
