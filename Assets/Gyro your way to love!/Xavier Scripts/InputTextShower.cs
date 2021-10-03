@@ -11,14 +11,14 @@ namespace Gyro_your_way_to_love_.Xavier_Scripts
         [SerializeField] private GameObject textDisplay;
         [SerializeField] private TMP_InputField passwordBox;
 
-        private void Update()
-        {
-            if (inputField)
-            {
-                TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default, false, false, true);
-            }
-            inputField.keyboardType = TouchScreenKeyboardType.Default;
-        }
+        // private void Update()
+        // {
+        //     if (inputField)
+        //     {
+        //         TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default, false, false, true);
+        //     }
+        //     inputField.keyboardType = TouchScreenKeyboardType.Default;
+        // }
 
         public void StoreName()
         {

@@ -9,9 +9,14 @@ public class SwipeEffect : MonoBehaviour,IBeginDragHandler,IDragHandler, IEndDra
    private Vector3 _initialPos;
    private float _distanceMoved;
    private bool _swipeLeft;
-
+   private Instantiator _instantiator;
    public event Action cardMoved;
-   
+
+   private void Start()
+   {
+      _instantiator = FindObjectOfType<Instantiator>();
+   }
+
    public void OnDrag(PointerEventData eventData)
    {
       transform.localPosition = new Vector2(transform.localPosition.x + eventData.delta.x, transform.localPosition.y);
@@ -30,7 +35,7 @@ public class SwipeEffect : MonoBehaviour,IBeginDragHandler,IDragHandler, IEndDra
       }
    }
 
-   public void OnBeginDrag(PointerEventData eventData)
+   public void OnBeginDrag(PointerEventData eventData) // Plenty of interface uses!
    {
       _initialPos = transform.localPosition;
    }
@@ -44,7 +49,7 @@ public class SwipeEffect : MonoBehaviour,IBeginDragHandler,IDragHandler, IEndDra
       }
       else
       {
-         if (transform.position.x > _initialPos.x)
+         if (transform.position.x > _initialPos.x) // checking is the position is greater than.
          {
             _swipeLeft = false;
          }
@@ -53,18 +58,20 @@ public class SwipeEffect : MonoBehaviour,IBeginDragHandler,IDragHandler, IEndDra
             _swipeLeft = true;
          }
 
-         cardMoved?.Invoke();
-         StartCoroutine(MoveCard());
+         cardMoved?.Invoke(); // If its moved! we invoke the event.
+         StartCoroutine(MoveCard()); // Unity event!
       }
    }
 
    private IEnumerator MoveCard()
    {
       float time = 0;
+      // This just gets color... Nothing important
       while (GetComponent<RawImage>().color != new Color(1, 1, 1, 0))
       {
+         // we get the time of the game itself.
          time += Time.deltaTime;
-         if (_swipeLeft)
+         if (_swipeLeft) // if true
          {
             transform.localPosition = new Vector3(Mathf.SmoothStep(transform.localPosition.x,
                transform.localPosition.x - Screen.width,time),transform.localPosition.y,0);
@@ -77,6 +84,6 @@ public class SwipeEffect : MonoBehaviour,IBeginDragHandler,IDragHandler, IEndDra
          GetComponent<RawImage>().color = new Color(1, 1, 1, Mathf.SmoothStep(1, 0, 4*time));
          yield return null;
       }
-      Destroy(gameObject);
+      _instantiator.DestroyOnSwipe(gameObject); // Then we call the function in another script!
    }
 }
